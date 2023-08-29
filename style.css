@@ -110,3 +110,25 @@ a {
     padding: 12px 30px;
     margin-top: 10px;
 }
+
+
+/* Description Section */
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.description-title {
+    width: 70%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.description p {
+    font-size: 25px;
+    font-style: italic;
+}
