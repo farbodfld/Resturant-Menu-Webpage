@@ -262,3 +262,72 @@ a {
 .banner {
     display: flex;
 }
+
+
+/* Dining Location Section */
+.location {
+    display: flex;
+    margin: 80px 0;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.location-title {
+    text-align: center;
+    margin-bottom: 100px;
+    width: 50%;
+}
+
+.loc-title-1 {
+    padding-bottom: 25px;
+    line-height: 1.2em;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.loc-title-1 h3 {
+    margin: 0;
+}
+
+.loc-title-2 {
+    line-height: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+
+.loc-title-2 h2 {
+    margin: 0;
+}
+
+.location-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-card {
+    margin: 0 30px;
+    width: 25%;
+}
+
+#selected-info-card {
+    margin-top: 10em;
+}
+
+.info {
+    line-height: 2.2em;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 17px;
+}
+
+#selected-title {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
