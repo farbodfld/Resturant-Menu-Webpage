@@ -360,3 +360,13 @@ a {
     font-weight: 700;
     font-size: 17px;
 }
+
+
+/* Text Cover Section */
+.text-cover {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 70px 0;
+}
