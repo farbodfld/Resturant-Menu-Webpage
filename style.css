@@ -331,3 +331,32 @@ a {
     font-size: 2rem;
     text-transform: uppercase;
 }
+
+
+/* Time Section */
+.time-section {
+    background-image: url(assets/dining-restaurant-5-900x500.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 370px;
+}
+
+#time {
+    line-height: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin: 0;
+}
+
+#time-info {
+    line-height: 1.7em;
+    font-weight: 700;
+    font-size: 17px;
+}
