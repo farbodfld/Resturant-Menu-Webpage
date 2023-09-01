@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -62,4 +62,49 @@ a {
 .btn-header:hover {
     background-color: #d6ae59;
     border: 3px solid #d6ae59;
+}
+
+/* Cover */
+.cover {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.mask {
+    background: rgba(0, 0, 0, .4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    /* height: 1040px; */
+}
+
+.video-title {
+    position: absolute;
+    left: 15%;
+    top: 35%;
+    color: #fff;
+    z-index: 2;
+    text-align: left;
+    width: 100%;
+}
+
+.video-title h1 {
+    font-size: 7rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+}
+
+.video-title p {
+    font-size: 25px;
 }
