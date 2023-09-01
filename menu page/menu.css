@@ -187,3 +187,45 @@ a {
 #banner-4 {
     background-image: url(../assets/dining-restaurant-5-900x500.jpg);
 }
+
+
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.links a {
+    text-decoration: underline;
+    color: #d6ae59;
+    margin: 10px 0;
+}
+
+.footer-logo {
+    text-align: center;
+}
+
+
+/* Back to top btn */
+#back-to-top {
+    border-radius: 50px;
+    background-color: #fff;
+    color: #000000;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    z-index: 800;
+    padding: 3px 5px;
+}
