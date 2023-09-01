@@ -370,3 +370,27 @@ a {
     justify-content: center;
     margin: 70px 0;
 }
+
+
+/* Private Event Section */
+.private-event {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.private-events-btn {
+    border: 3px solid #fff;
+    padding: 10px 25px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.private-events-btn:hover {
+    background-color: #d6ae59;
+    border: 3px solid #d6ae59;
+}
