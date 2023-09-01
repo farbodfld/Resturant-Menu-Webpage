@@ -427,3 +427,31 @@ a {
 .visit-us-section {
     margin: 40px 0;
 }
+
+
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.links a {
+    text-decoration: underline;
+    color: #d6ae59;
+    margin: 10px 0;
+}
+
+.footer-logo {
+    text-align: center;
+}
