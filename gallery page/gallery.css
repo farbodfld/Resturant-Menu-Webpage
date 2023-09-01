@@ -17,3 +17,49 @@ a {
     color: inherit;
     display: inline-block;
 }
+
+
+/* Header Section */
+.header {
+    background-color: #000000;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 15px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 77%;
+}
+
+.nav-bar-btn {
+    color: #fff;
+    margin: 0 15px;
+    transition: 0.7s;
+}
+
+.nav-bar-btn:hover {
+    color: #d6ae59;
+}
+
+#gallery-btn {
+    color: #d6ae59;
+}
+
+.btn-header {
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 12px 25px;
+    transition: 0.7s;
+}
+
+.btn-header:hover {
+    background-color: #d6ae59;
+    border: 3px solid #d6ae59;
+}
