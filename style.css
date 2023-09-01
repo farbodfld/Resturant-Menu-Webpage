@@ -394,3 +394,36 @@ a {
     background-color: #d6ae59;
     border: 3px solid #d6ae59;
 }
+
+
+/* Visit US */
+.visit-us {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 90px 0;
+}
+
+.visit-us h3 {
+    margin: 0;
+    line-height: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+.visit-us h2 {
+    margin: 0;
+    line-height: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 55px;
+}
+
+.visit-us-section {
+    margin: 40px 0;
+}
