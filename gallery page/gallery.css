@@ -134,6 +134,7 @@ a {
 }
 
 .item img {
+    display: block;
     transition: 0.6s;
 }
 
