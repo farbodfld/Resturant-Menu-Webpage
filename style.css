@@ -62,6 +62,7 @@ a {
 .btn-header:hover {
     background-color: #d6ae59;
     border: 3px solid #d6ae59;
+    color: rgb(81, 12, 12);
 }
 
 
@@ -119,6 +120,13 @@ a {
     border: 3px solid #fff;
     padding: 12px 30px;
     margin-top: 10px;
+    transition: 0.5s;
+}
+
+.view-more:hover {
+    background-color: #d6ae59;
+    border: 3px solid #d6ae59;
+    color: rgb(81, 12, 12);
 }
 
 
@@ -212,6 +220,10 @@ a {
     width: 86%;
 }
 
+.food-category:hover .menu-title {
+    background-color: #d6ae59;
+}
+
 .menu-title {
     border-radius: 20px;
     background-color: #fff;
@@ -222,6 +234,7 @@ a {
     letter-spacing: 5px;
     font-size: 2.5rem;
     margin-top: 55px;
+    transition: 0.5s;
 }
 
 .menu-title h4 {
@@ -265,6 +278,7 @@ a {
 #view-more-btn:hover {
     background-color: #d6ae59;
     border: 3px solid #d6ae59;
+    color: rgb(81, 12, 12);;
 }
 
 
@@ -403,6 +417,7 @@ a {
 .private-events-btn:hover {
     background-color: #d6ae59;
     border: 3px solid #d6ae59;
+    color: rgb(81, 12, 12);
 }
 
 
